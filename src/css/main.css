@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    @apply text-3xl text-center my-5
+}
+
+
+.my-table{
+    @apply table-fixed mt-2
+}
+
+/* .n-button--primary-type{
+    @apply bg-green-500 text-green-900
+} */
+
+.ck-editor__editable_inline {
+    min-height: 400px;
+}
+
+.ck-editor__main h1 {
+    font-size: 40px;
+}
+
+.ck-editor__main h2 {
+    font-size: 30px;
+}
+
+.ck-editor__main h3 {
+    font-size: 25px;
+}
+
+.ck-editor__main h4 {
+    font-size: 20px;
+}
+
+.ck-editor__main ul {
+    list-style-type: circle;
+    margin: 10px;
+    padding: 10px;
+}
+
+.ck-editor__main ol {
+    list-style-type: decimal;
+    margin: 10px;
+    padding: 10px;
+}
